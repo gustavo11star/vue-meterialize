@@ -5,10 +5,11 @@
       <v-side-nav id="demo">
         <ul>
           <li>
-            <a href="#!">Link</a>
+            <router-link to="/HelloWorldRoutes">Home</router-link>
           </li>
         </ul>
       </v-side-nav>
+      <router-view></router-view>
     </content-page>
     <footer-page></footer-page>
   </div>
