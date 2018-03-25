@@ -5,7 +5,10 @@
       <v-side-nav id="demo">
         <ul>
           <li>
-            <router-link to="/HelloWorldRoutes">Home</router-link>
+            <router-link to="/">Home</router-link>
+          </li>
+          <li>
+            <router-link to="/vuex">Vuex</router-link>
           </li>
         </ul>
       </v-side-nav>
