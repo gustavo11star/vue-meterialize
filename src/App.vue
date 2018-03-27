@@ -10,6 +10,9 @@
           <li>
             <router-link to="/vuex">Vuex</router-link>
           </li>
+          <li>
+            <router-link to="/categories">Categorias</router-link>
+          </li>
         </ul>
       </v-side-nav>
       <router-view></router-view>

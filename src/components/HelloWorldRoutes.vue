@@ -1,12 +1,12 @@
 <template>
-    <h1>{{ msg }}</h1>
+    <h3>{{ msg }}</h3>
 </template>
 
 <script>
 export default {
   data () {
     return {
-      msg: 'Ola voce esta navegando em uma rota do vue-route'
+      msg: 'Bem vindo, aqui você vera vue com vue-router, axius, vuex e materialize'
     }
   }
 }

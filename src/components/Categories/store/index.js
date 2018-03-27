@@ -5,6 +5,7 @@ import modules from './modules'
 import mutations from './mutations'
 
 export default {
+  namespaced: true,
   state,
   actions,
   getters,
